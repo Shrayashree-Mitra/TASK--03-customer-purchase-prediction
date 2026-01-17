@@ -39,4 +39,4 @@ The dataset contains customer demographics (age, job, education, marital status)
 This project demonstrates the end-to-end implementation of a Decision Tree classifier, from data preprocessing to model evaluation. The results highlight both the strengths and limitations of decision trees when applied to real-world, imbalanced marketing data
 - Overall, the model demonstrates effective learning from demographic and behavioral patterns
 
-## Repository Structure
+
