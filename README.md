@@ -3,21 +3,20 @@ Implemented a machine learning model using Python to analyze data and generate p
 # Task-03: Decision Tree Classifier on Bank Marketing Dataset
 
 ## Overview
-This project implements a Decision Tree classifier to predict whether a customer will subscribe to a product or service based on their demographic and behavioral attributes. The task is part of the Prodigy InfoTech Data Science Internship program.
+This project implements a Decision Tree classifier to predict whether a customer will purchase a product or service based on their demographic and behavioral attributes. The task is part of the Prodigy InfoTech Data Science Internship program.
 
 ## Dataset
 - *Source:* UCI Machine Learning Repository (Bank Marketing Dataset)
 - *File:* bank.csv
-- *Target Variable:* y
-  - 1 → Customer subscribed
-  - 0 → Customer did not subscribe
+- *Target Variable:
+  y=1 → Customer subscribed or made a purchase
+  y= 0 → Customer did not subscribe
 
-The dataset contains customer demographics (age, job, education, marital status) and behavioral data related to marketing campaigns.
+The dataset contains a mix of categorical and numeric features that represent both customer demographics (age, job, education, marital status) and behavioral data related to marketing campaigns.
 
 ## Tools and Technologies
 - Python  
-- Pandas, NumPy  
-- Scikit-learn  
+- Scikit-learn ( for modelling and processing) 
   
 ## Methodology
 1. Loaded and explored the Bank Marketing dataset
@@ -32,7 +31,7 @@ The dataset contains customer demographics (age, job, education, marital status)
 
 ## Results
 - *Accuracy:* ~87%
-- The model performs strongly on the majority class (non-subscribers)
+- The model performs strongly in identifying the majority class (non-subscribers)
 - Lower recall for the subscriber class reflects the natural class imbalance in the dataset
 
   ## Conclusion
